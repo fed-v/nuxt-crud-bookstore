@@ -71,6 +71,7 @@
 </template>
 
 <script setup lang="ts">
+
 	import { Header } from "vue3-easy-data-table";
 	import dayjs from "dayjs";
 	import { ref } from "vue";
@@ -106,4 +107,5 @@
 	const removeBook = async (book) => {
 		await bookStore.remove(book._id);
 	};
+	
 </script>

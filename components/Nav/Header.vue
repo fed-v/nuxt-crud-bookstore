@@ -2,7 +2,9 @@
 	<header class="w-full border-b border-gray-200 bg-white/50 backdrop-blur">
 		<div class="flex items-center justify-between h-20 px-3 mx-auto max-w-7xl">
 
-			<NuxtLink to="/" class="text-xl font-semibold">{{ $t('bookstore') }}</NuxtLink>
+			<NuxtLink to="/" class="text-xl font-semibold">
+				<img src="~/assets/images/logo.svg" alt="Logo" height="100%" width="100%" />
+			</NuxtLink>
 
 			<nav class="flex items-center space-x-2">
 

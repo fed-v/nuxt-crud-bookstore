@@ -6,7 +6,12 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@pinia/nuxt",
     '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
   ],
+
+  colorMode: {
+    classSuffix: "",
+  },
 
   i18n: {
     /* module options */
@@ -33,6 +38,11 @@ export default defineNuxtConfig({
 
   tailwindcss: {
     cssPath: "~/assets/main.css",
+    configPath: "tailwind.config.js",
+    exposeConfig: false,
+    config: {},
+    injectPosition: 0,
+    viewer: true,
   },
 
   devtools: { 

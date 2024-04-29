@@ -25,10 +25,10 @@
 						leave-from="opacity-100 scale-100"
 						leave-to="opacity-0 scale-95"
 					>
-						<DialogPanel class="w-full min-w-[360px] p-5 bg-white shadow-lg rounded-2xl">
+						<DialogPanel class="w-full min-w-[360px] p-5 bg-white shadow-lg rounded-2xl dark:bg-slate-800">
 							<div class="flex items-center justify-between">
 								<!-- Conditional rendering for text -->
-								<DialogTitle class="text-xl font-medium text-gray-700"
+								<DialogTitle class="text-xl font-medium text-gray-700 dark:text-white"
 									>{{ book._id ? $t('update') : $t('create') }} {{$t('book')}}</DialogTitle
 								>
 							</div>

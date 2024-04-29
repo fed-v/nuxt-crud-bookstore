@@ -3,6 +3,7 @@
 /// <reference types="nuxt-icon" />
 /// <reference types="@pinia/nuxt" />
 /// <reference types="@nuxtjs/i18n" />
+/// <reference types="@nuxtjs/color-mode" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />
@@ -12,7 +13,6 @@
 /// <reference path="types/app.config.d.ts" />
 /// <reference types="vite/client" />
 /// <reference types="@pinia/nuxt" />
-/// <reference path="../node_modules/@nuxtjs/i18n/dist/runtime/types" />
 /// <reference types="vue-router" />
 /// <reference path="types/middleware.d.ts" />
 /// <reference path="types/layouts.d.ts" />
@@ -22,6 +22,7 @@
 /// <reference path="imports.d.ts" />
 /// <reference path="nuxt-config-schema" />
 /// <reference path="schema/nuxt.schema.d.ts" />
+/// <reference path="../node_modules/@nuxtjs/i18n/dist/runtime/types" />
 /// <reference path="types/nitro.d.ts" />
 
 export {}

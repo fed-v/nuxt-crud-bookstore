@@ -11,3 +11,5 @@ export interface IAuthor {
 	name: string;
 	_id?: string;
 }
+
+export type Theme = "light" | "dark";

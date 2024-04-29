@@ -1,8 +1,8 @@
 <template>
-	<div class="min-h-screen">
+	<div class="min-h-screen dark:bg-slate-800">
 		<main class="max-w-5xl px-5 mx-auto pt-7 lg:px-0">
 			<!-- Page title -->
-			<h1 class="text-2xl font-medium">{{ $t('authors') }}</h1>
+			<h1 class="text-2xl font-medium dark:text-white">{{ $t('authors') }}</h1>
 			<p class="mt-2 text-sm text-gray-500">{{ $t('manageAuthors') }}</p>
 
 			<div
@@ -18,7 +18,7 @@
 						type="search"
 						name="search"
 						id="search"
-						class="pl-11 input"
+						class="pl-11 input dark:bg-slate-600 dark:text-slate-400"
 					/>
 				</div>
 				<button

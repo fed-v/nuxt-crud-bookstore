@@ -76,6 +76,9 @@
       ],
       "#i18n": [
         "C:/Users/fventurino/Desktop/personal-projects/nuxt-crud-bookstore/node_modules/@nuxtjs/i18n/dist/runtime/composables"
+      ],
+      "#color-mode-options": [
+        "C:/Users/fventurino/Desktop/personal-projects/nuxt-crud-bookstore/.nuxt/color-mode-options"
       ]
     }
   },

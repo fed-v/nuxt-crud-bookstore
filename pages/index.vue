@@ -1,12 +1,12 @@
 <template>
-	<div class="min-h-screen">
+	<div class="min-h-screen dark:bg-slate-800">
 		<main class="max-w-5xl px-5 mx-auto pt-7 lg:px-0">
 			<!-- Page title -->
-			<h1 class="text-2xl font-medium">{{ $t('books') }}</h1>
+			<h1 class="text-2xl font-medium dark:text-white">{{ $t('books') }}</h1>
 			<p class="mt-2 text-sm text-gray-500">{{ $t('manageBooks') }}</p>
 
 			<div
-				class="flex flex-col items-center justify-between mt-5 space-y-3 md:space-y-0 md:flex-row"
+				class="flex flex-col items-center justify-between mt-5 space-y-3 md:space-y-0 md:flex-row dark:bg-slate-800"
 			>
 				<div class="relative w-full md:mr-10 grow">
 					<span class="absolute -translate-y-1/2 top-1/2 left-3">
@@ -18,7 +18,7 @@
 						type="search"
 						name="search"
 						id="search"
-						class="pl-11 input"
+						class="pl-11 input dark:bg-slate-600 dark:text-slate-400"
 					/>
 				</div>
 				<button
@@ -76,6 +76,7 @@
 	import dayjs from "dayjs";
 	import { ref } from "vue";
 	import { useBookStore } from '../stores/bookStore';
+	import { IBook } from '~/types/index';
 
 	// Grab the translated values t
 	const { t } = useI18n();
@@ -104,7 +105,7 @@
 	];
 
 	// Method used to remove a book
-	const removeBook = async (book) => {
+	const removeBook = async (book: IBook) => {
 		await bookStore.remove(book._id);
 	};
 	

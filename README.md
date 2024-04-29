@@ -2,7 +2,7 @@
 
 This project serves as a practical demonstration of implementing CRUD (Create, Read, Update, Delete) operations within a Nuxt 3 application with integration of MongoDB as the backend database solution. By leveraging [Server Routes & Middleware](https://v3.nuxtjs.org/guide/directory-structure/server), it showcases how to seamlessly manage books and authors, including their relationships. Dive into the codebase to explore best practices for handling data in a Nuxt 3 environment and discover how to build robust CRUD functionality effortlessly.
 
-test
+
 ## Technologies Utilized
 
 Here's a list of the technologies and tools used in this project:

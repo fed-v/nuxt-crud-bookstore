@@ -13,7 +13,9 @@
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/i18n": "^8.0.0-rc.3",
     "@types/node": "^18.17.1",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "prettier": "^3.3.3",
+    "prettier-plugin-vue": "^1.1.6"
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.0",

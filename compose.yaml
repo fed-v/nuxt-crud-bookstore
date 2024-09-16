@@ -1,0 +1,18 @@
+services:
+  app:
+    build:
+      context: .
+      target: development
+    env_file: 
+      - ./.env.docker  # Use the Docker-specific environment file
+    ports:
+      - 3000:3000
+  db:
+    image: mongo:4.0-xenial
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+
+volumes:
+  data:

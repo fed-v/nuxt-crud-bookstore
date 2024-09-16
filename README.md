@@ -15,6 +15,8 @@ Here's a list of the technologies and tools used in this project:
 - [MongoDB](https://www.mongodb.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Nuxt I18n](https://i18n.nuxtjs.org/)
+- [Prettier](https://prettier.io/)
+- [Docker](https://www.docker.com/)
 
 
 
@@ -81,3 +83,29 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Docker
+
+Create and start the development container:
+
+  ```bash
+  docker compose up --build -d
+  ```
+  
+Stop and remove the development container:
+
+  ```bash
+  docker compose down
+  ```
+
+Create and start the production container:
+
+  ```bash
+  docker compose -f compose.production.yaml up --build -d
+  ```
+
+Stop and remove the production container:
+
+  ```bash
+  docker compose -f compose.production.yaml down
+  ```
